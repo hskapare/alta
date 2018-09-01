@@ -12,9 +12,9 @@
 
   <!-- Stylesheets -->
   <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-  <link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/hskapare/alta/630b56ed/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/hskapare/alta/630b56ed/mapplic/mapplic.css">
   <!-- Internet Explorer -->
   <!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="mapplic/mapplic-ie.css">
@@ -75,16 +75,15 @@
   </div>
 
   <!-- Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/hammer.min.js"></script>
-  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>a
-  <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="js/magnific-popup.js"></script>
-  <script type="text/javascript" src="mapplic/mapplic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>  
+  <script type="text/javascript" src="https://cdn.rawgit.com/hskapare/alta/630b56ed/mapplic/mapplic.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       var map = $('#mapplic').mapplic({
-        source: 'mall.json',
+        source: 'https://cdn.rawgit.com/hskapare/alta/630b56ed/mall.json',
         height: 460,
         mapfill: true,
         lightbox: true,
