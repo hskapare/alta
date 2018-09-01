@@ -29,8 +29,8 @@
   "levels": [{
       "id": "floor-1",
       "title": "Level 1",
-      "map": "images/mall/floor-1.svg",
-      "minimap": "images/mall/floor-1.jpg",
+      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-1.svg",
+      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-1.jpg",
       "show": "true",
       "locations": [{
           "id": "s110",
@@ -156,8 +156,8 @@
     {
       "id": "floor-2",
       "title": "Level 2",
-      "map": "images/mall/floor-2.svg",
-      "minimap": "images/mall/floor-2.jpg",
+      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-2.svg",
+      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-2.jpg",
       "show": false,
       "locations": [{
           "id": "s210",
@@ -276,8 +276,8 @@
     {
       "id": "floor-3",
       "title": "Level 3",
-      "map": "images/mall/floor-3.svg",
-      "minimap": "images/mall/floor-3.jpg",
+      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-3.svg",
+      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-3.jpg",
       "show": false,
       "locations": [{
           "id": "s310",
@@ -394,8 +394,8 @@
     {
       "id": "floor-4",
       "title": "Level 4",
-      "map": "images/mall/floor-4.svg",
-      "minimap": "images/mall/floor-4.jpg",
+      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-4.svg",
+      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-4.jpg",
       "show": false,
       "locations": [{
           "id": "s400",
@@ -456,8 +456,8 @@
     {
       "id": "floor-5",
       "title": "Level 5",
-      "map": "images/mall/floor-5.svg",
-      "minimap": "images/mall/floor-5.jpg",
+      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-5.svg",
+      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-5.jpg",
       "locations": [{
           "id": "s500",
           "title": "Suite 500",
