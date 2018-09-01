@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <title>Mapplic - Custom Interactive Map Plugin - Apartment Example</title>
+
+  <!-- Viewport for Responsivity -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="description" content="Image map of an apartment, an example of using Mapplic, a premium custom interactive map plugin to display custom image or vector (SVG) maps.">
+
+  <!-- Stylesheets -->
+  <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+  <!-- Internet Explorer -->
+  <!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="mapplic/mapplic-ie.css">
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+  <div id="wrap">
+
+    <!-- Site header -->
+    <header id="header">
+
+    </header>
+
+    <!-- Site content -->
+    <div id="content">
+
+      <section id="map-section" class="inner over">
+        <div class="editor-window">
+          <div class="window-mockup brown"></div>
+          <div class="editor-body">
+            <code>
+								{<br>
+								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
+								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
+								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
+								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;...<br>
+								}
+							</code>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <div class="window-mockup">
+            <div class="window-bar"></div>
+          </div>
+          <!-- Map -->
+
+          <!-- This is where the map is drawn -->
+          <div id="mapplic"></div>
+
+          <div id="second"></div>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- Site footer -->
+    <footer id="footer">
+      <div class="inner">
+        <span>Copyright &copy; 2018 <a href="https://codecanyon.net/user/sekler?ref=sekler">sekler</a>. All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/hammer.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>a
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/magnific-popup.js"></script>
+  <script type="text/javascript" src="mapplic/mapplic.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var map = $('#mapplic').mapplic({
+        source: 'mall.json',
+        height: 460,
+        mapfill: true,
+        lightbox: true,
+        developer: false,
+        maxscale: 1
+      });
+
+      // EVENTS
+      // Map ready
+      map.on('mapready', function (e, self) {
+        console.log('Map is ready!')
+        // self grants direct access to the map object
+        // The map will be focused on the washing machine by default
+        //self.moveTo(0.67, 0.62, 3, 0);
+      });
+
+      // Location opened
+      map.on('locationopened', function (e, location) {
+        // location grants full access to the location
+        console.log(location.title + ' opened.');
+      });
+
+      // Location closed
+      map.on('locationclosed', function (e) {
+        console.log('Location closed.');
+      });
+
+      // Level switched
+      map.on('levelswitched', function (e, level) {
+        console.log('Switched to ' + level + ' level.');
+      });
+
+      // Position changed
+      map.on('positionchanged', function (e, self) {
+        // self grants direct access to the map object
+        //console.log('Pan or zoom performed, current scale: ' + self.scale);
+      });
+
+      // METHODS
+      // Getting mapplic object
+      var self = map.data('mapplic');
+
+      map.on('locationclosed', function (e) {
+        //console.log(self);
+      });
+    });
+  </script>
+</body>
+
+</html>

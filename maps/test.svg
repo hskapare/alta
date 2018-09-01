@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F3512B;}
+	.st1{fill:#999999;}
+	.st2{fill:none;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:12px;}
+	.st6{display:none;}
+</style>
+<g id="Landmarks-Test">
+	<polygon id="South_Building_-_Unit_160" class="st0" points="355,298 354,292 365,281 423,303 422.6,306.4 334,420 282,395 
+		281,390 288,382 291,383 291,381 302,369 295,367 295,361 317,336 326,340 361,300 	"/>
+	<polygon id="Purchased_-_Unit_170" class="st1" points="162,167 160,161 277,87 612,181 611,186 538,302 	"/>
+	<polygon id="South_Building_-_Unit_180" class="st0" points="397,452 398,446 481,325 522,342 511,399 510,404 464,484 	"/>
+	<polygon id="Garage" class="st1" points="424,304 479,325 478.6,328.7 395,451 383,445 378,452 338,432 338,426 340,423 335,421 
+		335,415 	"/>
+	<rect x="453.5" y="379.2" class="st2" width="47.5" height="41.8"/>
+	<text transform="matrix(1 0 0 1 453.4736 387.6943)"><tspan x="0" y="0" class="st3 st4 st5">South </tspan><tspan x="0" y="14.4" class="st3 st4 st5">Building </tspan><tspan x="0" y="28.8" class="st3 st4 st5">Unit 180</tspan></text>
+	<rect x="319.5" y="341.2" class="st2" width="47.5" height="41.8"/>
+	<text transform="matrix(1 0 0 1 319.4736 349.6943)"><tspan x="0" y="0" class="st3 st4 st5">South </tspan><tspan x="0" y="14.4" class="st3 st4 st5">Building </tspan><tspan x="0" y="28.8" class="st3 st4 st5">Unit 160</tspan></text>
+	<rect x="386.5" y="173.2" class="st2" width="47.5" height="41.8"/>
+	<text transform="matrix(1 0 0 1 386.4736 181.6943)" class="st3 st4 st5">Garage</text>
+	<rect x="382.5" y="365.2" class="st2" width="54.5" height="26.8"/>
+	<text transform="matrix(1 0 0 1 382.4746 373.6943)"><tspan x="0" y="0" class="st3 st4 st5">Purchased</tspan><tspan x="0" y="14.4" class="st3 st4 st5">Unit 170</tspan></text>
+</g>
+<g id="No-Pointer_Test">
+</g>
+<g id="Layer_3" class="st6">
+	
+		<image style="display:inline;overflow:visible;" width="656" height="740" xlink:href="Screen Shot 2018-08-21 at 1.37.35 PM.png"  transform="matrix(0.5 0 0 0.5 375 439)">
+	</image>
+</g>
+<g id="Sketchup_Image">
+	
+		<image style="overflow:visible;" width="2880" height="1520" xlink:href="Interactive Map - 1st floor - no background.png"  transform="matrix(0.2822 0 0 0.2822 -3 84)">
+	</image>
+</g>
+</svg>
