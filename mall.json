@@ -403,7 +403,7 @@
           "about": "In Escrow",
           "description": "Future Home of <a href=\"https://www.evaair.com/\">EVA Air</a>",
           "category": "purchased-units",
-          "thumbnail":"images/thumbs/eva.jpg",
+          "thumbnail":"https://cdn.rawgit.com/hskapare/alta/c3817e29/images/thumbs/eva.jpg",
           "x": "0.3318",
           "y": "0.4800",
           "pin": "hidden"
@@ -464,7 +464,7 @@
           "about": "In Escrow",
           "description": "Future Home of <a href=\"https://www.evaair.com/\">EVA Air</a>",
           "category": "purchased-units",
-          "thumbnail":"images/thumbs/eva.jpg",
+          "thumbnail":"https://cdn.rawgit.com/hskapare/alta/c3817e29/images/thumbs/eva.jpg",
           "x": "0.3324",
           "y": "0.4804",
           "pin": "hidden"
