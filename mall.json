@@ -1,11 +1,11 @@
 {
-  "mapwidth": "1000",
-  "mapheight": "600",
+  "mapwidth": "2000",
+  "mapheight": "1200",
   "categories": [{
       "id": "south-units",
       "title": "2155 Campus Drive",
       "color": "#0a628b",
-      "show": "false"
+      "show": "true"
     },
     {
       "id": "east-units",
@@ -14,14 +14,8 @@
       "show": "false"
     },
     {
-      "id": "purchased-units",
-      "title": "In Escrow",
-      "color": "#0a628b",
-      "show": "false"
-    },
-    {
-      "id": "amenities",
-      "title": "Amenities",
+      "id": "third-floor",
+      "title": "3rd Floor",
       "color": "#0a628b",
       "show": "false"
     }
@@ -29,15 +23,15 @@
   "levels": [{
       "id": "floor-1",
       "title": "Level 1",
-      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-1.svg",
-      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-1.jpg",
+      "map": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-1.svg",
+      "minimap": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-1.jpg",
       "show": "true",
       "locations": [{
           "id": "s110",
           "title": "Suite 110",
           "about": "Available",
           "category": "south-units",
-          "link":"https://www.altaoficina.com/s/ALTA-Oficina-Suite-110.pdf",
+          "link":"https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+110.pdf",
           "x": "0.1056",
           "y": "0.3725",
           "pin": "hidden"
@@ -48,7 +42,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-130.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+130.pdf",
           "x": "0.1919",
           "y": "0.4579",
           "pin": "hidden"
@@ -59,7 +53,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-140.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+140.pdf",
           "x": "0.2381",
           "y": "0.4933",
           "pin": "hidden"
@@ -70,7 +64,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-150.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+150.pdf",
           "x": "0.2944",
           "y": "0.5350",
           "pin": "hidden"
@@ -78,10 +72,10 @@
         {
           "id": "s160",
           "title": "Suite 160",
-          "about": "Available",
-          "description": "Available",
+          "about": "In Escrow",
+          "description": "Unavailable",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-160.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+160.pdf",
           "x": "0.4256",
           "y": "0.6162",
           "pin": "hidden"
@@ -89,10 +83,10 @@
         {
           "id": "s170",
           "title": "Suite 170",
-          "about": "Available",
-          "description": "Available",
+          "about": "In Escrow",
+          "description": "Unavailable",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-170.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+170.pdf",
           "x": "0.4831",
           "y": "0.6725",
           "pin": "hidden"
@@ -100,10 +94,10 @@
         {
           "id": "s180",
           "title": "Suite 180",
-          "about": "Available",
-          "description": "Available",
+          "about": "In Escrow",
+          "description": "Unavailable",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-180.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+180.pdf",
           "x": "0.5656",
           "y": "0.7329",
           "pin": "hidden"
@@ -114,7 +108,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-105.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+105.pdf",
           "x": "0.8081",
           "y": "0.7417",
           "pin": "hidden"
@@ -125,7 +119,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-115.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+115.pdf",
           "x": "0.8344",
           "y": "0.6417",
           "pin": "hidden"
@@ -133,31 +127,22 @@
         {
           "id": "e125",
           "title": "Suite 125",
-          "about": "Available",
-          "description": "Available",
+          "about": "In Escrow",
+          "description": "Unavailable",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-125.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+125.pdf",
           "x": "0.8556",
           "y": "0.4771",
           "pin": "hidden"
-        },
-        {
-          "id": "garage-1",
-          "title": "Level 1 Parking",
-          "about": "",
-          "description": "",
-          "category": "amenities",
-          "x": "0.4819",
-          "y": "0.2729",
-          "pin": "hidden"
         }
+        
       ]
     },
     {
       "id": "floor-2",
       "title": "Level 2",
-      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-2.svg",
-      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-2.jpg",
+      "map": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-2.svg",
+      "minimap": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-2.jpg",
       "show": false,
       "locations": [{
           "id": "s210",
@@ -165,7 +150,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-210.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+210.pdf",
           "x": "0.1078",
           "y": "0.3717",
           "zoom": "3",
@@ -177,7 +162,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-220.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+220.pdf",
           "x": "0.1808",
           "y": "0.4333",
           "zoom": "2",
@@ -189,7 +174,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-230.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+230.pdf",
           "x": "0.2418",
           "y": "0.4683",
           "zoom": "3",
@@ -201,7 +186,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-240.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+240.pdf",
           "x": "0.3148",
           "y": "0.5133",
           "pin": "hidden"
@@ -212,7 +197,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-250.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+250.pdf",
           "x": "0.4318",
           "y": "0.5967",
           "pin": "hidden"
@@ -223,7 +208,7 @@
           "about": "Available",
           "description": "Available",
           "category": "south-units",
-          "link": "https://static1.squarespace.com/static/5afb1ed912b13f4b1c71c8f5/t/5b89fc402b6a2848b02770a4/1535769664994/ALTA+Oficina+Suite+260.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+260.pdf",
           "x": "0.5248",
           "y": "0.6883",
           "pin": "hidden"
@@ -234,7 +219,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-205.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+205.pdf",
           "x": "0.8298",
           "y": "0.6800",
           "pin": "hidden"
@@ -245,7 +230,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-215.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+215.pdf",
           "x": "0.8908",
           "y": "0.5083",
           "pin": "hidden"
@@ -256,19 +241,9 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-225.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+225.pdf",
           "x": "0.8818",
           "y": "0.4017",
-          "pin": "hidden"
-        },
-        {
-          "id": "garage-2",
-          "title": "Level 2 Parking",
-          "about": "",
-          "description": "",
-          "category": "amenities",
-          "x": "0.4998",
-          "y": "0.2550",
           "pin": "hidden"
         }
       ]
@@ -276,16 +251,16 @@
     {
       "id": "floor-3",
       "title": "Level 3",
-      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-3.svg",
-      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-3.jpg",
+      "map": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-3.svg",
+      "minimap": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-3.jpg",
       "show": false,
       "locations": [{
           "id": "s310",
           "title": "Suite 310",
-          "about": "Available",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-310.pdf",
+          "about": "Unavailable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+310.pdf",
           "x": "0.1208",
           "y": "0.3683",
           "pin": "hidden"
@@ -293,10 +268,10 @@
         {
           "id": "s320",
           "title": "Suite 320",
-          "about": "Avaiable",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-320.pdf",
+          "about": "Unavaiable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+320.pdf",
           "x": "0.1928",
           "y": "0.4183",
           "pin": "hidden"
@@ -304,10 +279,10 @@
         {
           "id": "s330",
           "title": "Suite 330",
-          "about": "Available",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-330.pdf",
+          "about": "Unavailable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+330.pdf",
           "x": "0.2458",
           "y": "0.4617",
           "pin": "hidden"
@@ -315,10 +290,10 @@
         {
           "id": "s340",
           "title": "Suite 340",
-          "about": "Available",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-340.pdf",
+          "about": "Unavailable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+340.pdf",
           "x": "0.2948",
           "y": "0.5133",
           "pin": "hidden"
@@ -326,10 +301,10 @@
         {
           "id": "s350",
           "title": "Suite 350",
-          "about": "Available",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-350.pdf",
+          "about": "Unavailable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+350.pdf",
           "x": "0.4258",
           "y": "0.5800",
           "pin": "hidden"
@@ -337,10 +312,10 @@
         {
           "id": "s360",
           "title": "Suite 360",
-          "about": "Available",
-          "description": "Available",
-          "category": "south-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-360.pdf",
+          "about": "Unavailable",
+          "description": "Unavailable",
+          "category": "third-floor",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+360.pdf",
           "x": "0.5418",
           "y": "0.6600",
           "pin": "hidden"
@@ -351,7 +326,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-305.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+305.pdf",
           "x": "0.8238",
           "y": "0.6617",
           "pin": "hidden"
@@ -362,7 +337,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-315.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+315.pdf",
           "x": "0.8648",
           "y": "0.4700",
           "pin": "hidden"
@@ -373,19 +348,9 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-325.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+325.pdf",
           "x": "0.8858",
           "y": "0.3950",
-          "pin": "hidden"
-        },
-        {
-          "id": "garage-3",
-          "title": "Level 3 Parking",
-          "about": "",
-          "description": "",
-          "category": "amenities",
-          "x": "0.4928",
-          "y": "0.2450",
           "pin": "hidden"
         }
 
@@ -394,16 +359,16 @@
     {
       "id": "floor-4",
       "title": "Level 4",
-      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-4.svg",
-      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-4.jpg",
+      "map": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-4.svg",
+      "minimap": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-4.jpg",
       "show": false,
       "locations": [{
           "id": "s400",
           "title": "Suite 400",
-          "about": "In Escrow",
+          "about": "EVA Air",
           "description": "Future Home of <a href=\"https://www.evaair.com/\">EVA Air</a>",
-          "category": "purchased-units",
-          "thumbnail":"https://cdn.rawgit.com/hskapare/alta/5216224d/images/thumbs/EVA.jpg",
+          "category": "south-units",
+          "thumbnail":"https://s3-us-west-2.amazonaws.com/altaoficina/images/thumbs/EVA.jpg",
           "x": "0.3318",
           "y": "0.4800",
           "pin": "hidden"
@@ -414,7 +379,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-405.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+405.pdf",
           "x": "0.8298",
           "y": "0.6483",
           "pin": "hidden"
@@ -425,7 +390,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-415.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+415.pdf",
           "x": "0.8818",
           "y": "0.4650",
           "pin": "hidden"
@@ -436,19 +401,9 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-425.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+425.pdf",
           "x": "0.9098",
           "y": "0.3917",
-          "pin": "hidden"
-        },
-        {
-          "id": "garage-4",
-          "title": "Level 4 Parking",
-          "about": "",
-          "description": "",
-          "category": "amenities",
-          "x": "0.4898",
-          "y": "0.2383",
           "pin": "hidden"
         }
       ]
@@ -456,15 +411,15 @@
     {
       "id": "floor-5",
       "title": "Level 5",
-      "map": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-5.svg",
-      "minimap": "https://cdn.rawgit.com/hskapare/alta/c3817e29/images/mall/floor-5.jpg",
+      "map": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-5.svg",
+      "minimap": "https://s3-us-west-2.amazonaws.com/altaoficina/images/mall/floor-5.jpg",
       "locations": [{
           "id": "s500",
           "title": "Suite 500",
-          "about": "In Escrow",
+          "about": "EVA Air",
           "description": "Future Home of <a href=\"https://www.evaair.com/\">EVA Air</a>",
-          "category": "purchased-units",
-          "thumbnail":"https://cdn.rawgit.com/hskapare/alta/5216224d/images/thumbs/EVA.jpg",
+          "category": "south-units",
+          "thumbnail":"https://s3-us-west-2.amazonaws.com/altaoficina/images/thumbs/EVA.jpg",
           "x": "0.3324",
           "y": "0.4804",
           "pin": "hidden"
@@ -475,7 +430,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-505.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+505.pdf",
           "x": "0.8358",
           "y": "0.6383",
           "pin": "hidden"
@@ -486,7 +441,7 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-515.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+515.pdf",
           "x": "0.8778",
           "y": "0.4517",
           "pin": "hidden"
@@ -497,19 +452,9 @@
           "about": "Available",
           "description": "Available",
           "category": "east-units",
-          "link": "https://www.altaoficina.com/s/ALTA-Oficina-Suite-525.pdf",
+          "link": "https://s3-us-west-2.amazonaws.com/altaoficina/plans/ALTA+Oficina+Suite+525.pdf",
           "x": "0.8898",
           "y": "0.3600",
-          "pin": "hidden"
-        },
-        {
-          "id": "garage-5",
-          "title":"Level 5 Parking",
-          "about": "",
-          "description": "",
-          "category": "amenities",
-          "x": "0.4954",
-          "y": "0.2283",
           "pin": "hidden"
         }
       ]

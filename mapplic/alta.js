@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var map = $('#mapplic').mapplic({
-        source: 'https://cdn.rawgit.com/hskapare/alta/22bf9b8f/mall.json',
+        source: 'https://s3-us-west-2.amazonaws.com/altaoficina/mall.json',
         height: 460,
         mapfill: true,
         lightbox: true,

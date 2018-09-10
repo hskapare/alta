@@ -830,6 +830,10 @@ a.mapplic-zoomout-button {
 	line-height: 20px;
 }
 
+.mapplic-tooltip-description a {
+	text-decoration: underline;
+}
+
 .mapplic-popup-link {
 	background-color: #6CB5F4;
 	border-radius: 0;
